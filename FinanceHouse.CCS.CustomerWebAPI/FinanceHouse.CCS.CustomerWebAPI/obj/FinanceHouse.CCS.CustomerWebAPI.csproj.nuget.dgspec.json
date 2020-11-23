@@ -1,0 +1,491 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.CustomerWebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\Finance.CCS.Common\\FinanceHouse.CCS.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\Finance.CCS.Common\\FinanceHouse.CCS.Common.csproj",
+        "projectName": "FinanceHouse.CCS.Common",
+        "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\Finance.CCS.Common\\FinanceHouse.CCS.Common.csproj",
+        "packagesPath": "C:\\Users\\araheem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\Finance.CCS.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\araheem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.BusinessLayer\\FinanceHouse.CCS.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.BusinessLayer\\FinanceHouse.CCS.BusinessLayer.csproj",
+        "projectName": "FinanceHouse.CCS.BusinessLayer",
+        "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.BusinessLayer\\FinanceHouse.CCS.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\araheem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\araheem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Model\\FinanceHouse.CCS.Model.csproj": {
+                "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Model\\FinanceHouse.CCS.Model.csproj"
+              },
+              "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Repository\\FinanceHouse.CCS.Repository.csproj": {
+                "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Repository\\FinanceHouse.CCS.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.CustomerWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.CustomerWebAPI.csproj",
+        "projectName": "FinanceHouse.CCS.CustomerWebAPI",
+        "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.CustomerWebAPI.csproj",
+        "packagesPath": "C:\\Users\\araheem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.CustomerWebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\araheem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\Finance.CCS.Common\\FinanceHouse.CCS.Common.csproj": {
+                "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\Finance.CCS.Common\\FinanceHouse.CCS.Common.csproj"
+              },
+              "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.BusinessLayer\\FinanceHouse.CCS.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.BusinessLayer\\FinanceHouse.CCS.BusinessLayer.csproj"
+              },
+              "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Model\\FinanceHouse.CCS.Model.csproj": {
+                "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Model\\FinanceHouse.CCS.Model.csproj"
+              },
+              "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Repository\\FinanceHouse.CCS.Repository.csproj": {
+                "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Repository\\FinanceHouse.CCS.Repository.csproj"
+              },
+              "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.ServiceLayer\\FinanceHouse.CCS.ServiceLayer.csproj": {
+                "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.ServiceLayer\\FinanceHouse.CCS.ServiceLayer.csproj"
+              },
+              "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Test\\FinanceHouse.CCS.Test.csproj": {
+                "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Test\\FinanceHouse.CCS.Test.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Model\\FinanceHouse.CCS.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Model\\FinanceHouse.CCS.Model.csproj",
+        "projectName": "FinanceHouse.CCS.Model",
+        "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Model\\FinanceHouse.CCS.Model.csproj",
+        "packagesPath": "C:\\Users\\araheem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\araheem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Repository\\FinanceHouse.CCS.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Repository\\FinanceHouse.CCS.Repository.csproj",
+        "projectName": "FinanceHouse.CCS.Repository",
+        "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Repository\\FinanceHouse.CCS.Repository.csproj",
+        "packagesPath": "C:\\Users\\araheem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\araheem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.ServiceLayer\\FinanceHouse.CCS.ServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.ServiceLayer\\FinanceHouse.CCS.ServiceLayer.csproj",
+        "projectName": "FinanceHouse.CCS.ServiceLayer",
+        "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.ServiceLayer\\FinanceHouse.CCS.ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\araheem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.ServiceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\araheem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.BusinessLayer\\FinanceHouse.CCS.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.BusinessLayer\\FinanceHouse.CCS.BusinessLayer.csproj"
+              },
+              "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Model\\FinanceHouse.CCS.Model.csproj": {
+                "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Model\\FinanceHouse.CCS.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Test\\FinanceHouse.CCS.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Test\\FinanceHouse.CCS.Test.csproj",
+        "projectName": "FinanceHouse.CCS.Test",
+        "projectPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Test\\FinanceHouse.CCS.Test.csproj",
+        "packagesPath": "C:\\Users\\araheem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\araheem\\Documents\\FinanceHouse\\FinanceHouse.CCS.CustomerWebAPI\\FinanceHouse.CCS.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\araheem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

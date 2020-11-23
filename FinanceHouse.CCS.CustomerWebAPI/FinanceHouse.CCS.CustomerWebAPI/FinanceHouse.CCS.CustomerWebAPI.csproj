@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Finance.CCS.Common\FinanceHouse.CCS.Common.csproj" />
+    <ProjectReference Include="..\FinanceHouse.CCS.BusinessLayer\FinanceHouse.CCS.BusinessLayer.csproj" />
+    <ProjectReference Include="..\FinanceHouse.CCS.Model\FinanceHouse.CCS.Model.csproj" />
+    <ProjectReference Include="..\FinanceHouse.CCS.Repository\FinanceHouse.CCS.Repository.csproj" />
+    <ProjectReference Include="..\FinanceHouse.CCS.ServiceLayer\FinanceHouse.CCS.ServiceLayer.csproj" />
+    <ProjectReference Include="..\FinanceHouse.CCS.Test\FinanceHouse.CCS.Test.csproj" />
+  </ItemGroup>
+
+
+</Project>

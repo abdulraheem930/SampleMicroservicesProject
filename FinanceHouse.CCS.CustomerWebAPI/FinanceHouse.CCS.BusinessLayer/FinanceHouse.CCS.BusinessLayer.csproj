@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinanceHouse.CCS.Model\FinanceHouse.CCS.Model.csproj" />
+    <ProjectReference Include="..\FinanceHouse.CCS.Repository\FinanceHouse.CCS.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

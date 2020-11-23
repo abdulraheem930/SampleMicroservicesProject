@@ -1,0 +1,8 @@
+C:\Users\araheem\Documents\Finance\FinanceHouse.CCS.CustomerWebAPI\FinanceHouse.CCS.Repository\bin\Debug\netcoreapp3.1\FinanceHouse.CCS.Repository.deps.json
+C:\Users\araheem\Documents\Finance\FinanceHouse.CCS.CustomerWebAPI\FinanceHouse.CCS.Repository\bin\Debug\netcoreapp3.1\FinanceHouse.CCS.Repository.dll
+C:\Users\araheem\Documents\Finance\FinanceHouse.CCS.CustomerWebAPI\FinanceHouse.CCS.Repository\obj\Debug\netcoreapp3.1\FinanceHouse.CCS.Repository.csprojAssemblyReference.cache
+C:\Users\araheem\Documents\Finance\FinanceHouse.CCS.CustomerWebAPI\FinanceHouse.CCS.Repository\obj\Debug\netcoreapp3.1\FinanceHouse.CCS.Repository.AssemblyInfoInputs.cache
+C:\Users\araheem\Documents\Finance\FinanceHouse.CCS.CustomerWebAPI\FinanceHouse.CCS.Repository\obj\Debug\netcoreapp3.1\FinanceHouse.CCS.Repository.AssemblyInfo.cs
+C:\Users\araheem\Documents\Finance\FinanceHouse.CCS.CustomerWebAPI\FinanceHouse.CCS.Repository\bin\Debug\netcoreapp3.1\FinanceHouse.CCS.Repository.pdb
+C:\Users\araheem\Documents\Finance\FinanceHouse.CCS.CustomerWebAPI\FinanceHouse.CCS.Repository\obj\Debug\netcoreapp3.1\FinanceHouse.CCS.Repository.dll
+C:\Users\araheem\Documents\Finance\FinanceHouse.CCS.CustomerWebAPI\FinanceHouse.CCS.Repository\obj\Debug\netcoreapp3.1\FinanceHouse.CCS.Repository.pdb
